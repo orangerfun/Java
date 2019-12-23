@@ -1,4 +1,4 @@
-** Java提供String和StringBuffer两个类来封装字符串 **
+**Java提供String和StringBuffer两个类来封装字符串**<br>
 String是不可变类，一旦String对象被创建后，该字符串序列不可变<br>
 StringBuffer对象代表可变的字符串序列，可以改变其中字符
 
@@ -28,12 +28,12 @@ public class StringClass {
     }
 }
 ```
-**一些有用的方法集合**
-`charAt(index)`:获取指定位置的字符
-`endsWith(char)`:是否以某字符（串结尾）
-`indexOf(char,from)`: 从某个索引开始，字符char首次出现的位置，当不设置from参数时，默认从头开始
-`toLowerCase()`:全部转换成小写
-`concat(String)`:将String链接在string的后头
+**一些有用的方法集合**<br>
+`charAt(index)`:获取指定位置的字符<br>
+`endsWith(char)`:是否以某字符（串结尾）<br>
+`indexOf(char,from)`: 从某个索引开始，字符char首次出现的位置，当不设置from参数时，默认从头开始<br>
+`toLowerCase()`:全部转换成小写<br>
+`concat(String)`:将String链接在string的后头<br>
 
 ### 2.StringBuilder/StringBuffer
 ```java
