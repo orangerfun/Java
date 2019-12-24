@@ -27,7 +27,7 @@ RandomAccessFile(String name, String mode)：访问参数 name 指定的文件�
 如果使用 rw 方式声明 RandomAccessFile 对象时，要写入的文件不存在，系统将自动进行创建<br>
 [**更详细参考 click here**](http://c.biancheng.net/view/1137.html)
 
-## 文件输入输出流读写文件
+## 字节文件输入输出流读写文件
 **1.文件输入流**<br>
 从文件中获取内容，通过使用 `FileInputStream` 可以访问文件中的一个字节、一批字节或整个文件,**在创建 FileInputStream 类的对象时，如果找不到指定的文件将拋出 FileNotFoundException 异常，该异常必须捕获或声明拋出**FileInputStream 常用的构造方法主要有如下两种重载形式:
 ```
@@ -62,5 +62,9 @@ public static void main(String[] args){
  FileOutputStream(String name,boolean append)：创建一个文件输出流，参数 name 和 append 的含义同上
  ```
  程序见：`FileReadWrite.java`
+ 
+ ## 字符文件输入输出流
+ `FileReader``FileWriter``BufferedReader``BufferedWriter`
+ [**详情 ClickHere](http://c.biancheng.net/view/1150.html)
  
  
